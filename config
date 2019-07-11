@@ -6,6 +6,8 @@
 	editor = vim
 [web]
 	browser = google-chrome
+[ui]
+  color = auto
 [alias]
 	a = add --all
 	ai = add -i
