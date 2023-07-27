@@ -48,6 +48,7 @@
 	cpc = cherry-pick --continue
 	#############
 	d = diff
+	dn = diff --name-only
 	dp = diff --patience
 	dc = diff --cached
 	dk = diff --check
