@@ -70,6 +70,7 @@
 	l = log --oneline
 	ll = log --oneline -n 50
 	lg = log --oneline --graph --decorate
+        la = log --graph --pretty=format:'%C(yellow)%h%C(reset) - %C(cyan)%<(20,trunc)%ae%C(reset): %C(auto)%s%C(reset) %C(magenta)%d%C(reset) %C(green)(%ar)%C(reset)' --abbrev-commit
 	#############
 	ls = ls-files
 	lsf = !git ls-files | grep -i
